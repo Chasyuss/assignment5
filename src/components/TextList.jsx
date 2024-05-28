@@ -1,4 +1,7 @@
-export default function TextList({ texts }) {
+import { useTextsContext } from "../App";
+
+export default function TextList() {
+  const { texts } = useTextsContext();
   return (
     <ul>
       {texts.map((text, index) => (
