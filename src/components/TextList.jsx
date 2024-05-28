@@ -1,7 +1,8 @@
-import { useTextsContext } from "../App";
+import { useSelector } from "react-redux";
+
 
 export default function TextList() {
-  const { texts } = useTextsContext();
+  const texts = useSelector((state) => state.texts);
   return (
     <ul>
       {texts.map((text, index) => (
@@ -9,4 +10,4 @@ export default function TextList() {
       ))}
     </ul>
   );
-}
+};
