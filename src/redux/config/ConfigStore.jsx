@@ -1,9 +1,9 @@
-import { createStore } from "redux";
+import { ConfigStore } from "redux";
 import rootReducer from "../modules/reducers";
 
-const store = createStore(
+const ConfigStore = ConfigStore(
     rootReducer,
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
-export default store;
+export default ConfigStore;

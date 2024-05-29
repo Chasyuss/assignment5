@@ -1989,6 +1989,11 @@ react@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
 
+redux-devtools-extension@^2.13.9:
+  version "2.13.9"
+  resolved "https://registry.yarnpkg.com/redux-devtools-extension/-/redux-devtools-extension-2.13.9.tgz#6b764e8028b507adcb75a1cae790f71e6be08ae7"
+  integrity sha512-cNJ8Q/EtjhQaZ71c8I9+BPySIBVEKssbPpskBfsXqb8HJ002A3KRVHfeRzwRo6mGPqsm7XuHTqNSNeS1Khig0A==
+
 redux@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/redux/-/redux-5.0.1.tgz#97fa26881ce5746500125585d5642c77b6e9447b"
@@ -2271,6 +2276,11 @@ to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==
+
+toolkit@^1.5.4:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/toolkit/-/toolkit-1.5.4.tgz#cb878eb76516f087a0aa6ed37e1ab8e2563391ca"
+  integrity sha512-Pl5sFQlDCeQjJxpd/f0btO6khPKR9RioF4aLzbYtJGePI+CVKpVbOhcJd2F5cR4a2saD0qTzCTIWDvLOqeQ/jg==
 
 tslib@2.6.2:
   version "2.6.2"
